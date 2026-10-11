@@ -1747,7 +1747,7 @@ body {
   border-radius: 10px;
 }
 .project-gallery.desktop .project-image-frame {
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 20 / 12;
   border-radius: 2px;
 }
 .project-gallery .image-fallback p {
@@ -1780,4 +1780,88 @@ body {
 }
 .hero-meta {
   margin-top: 46px;
+}
+
+/* Readable type system: one quiet family, restrained weights, comfortable Korean line-height. */
+body,
+button,
+a,
+input {
+  font-family: "IBM Plex Sans KR", "Manrope", sans-serif;
+}
+body {
+  font-size: 15px;
+  line-height: 1.72;
+  letter-spacing: -0.012em;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "IBM Plex Sans KR", "Manrope", sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.055em;
+}
+.site-nav,
+.nav-links button,
+.nav-contact {
+  font-family: "IBM Plex Sans KR", sans-serif;
+}
+.kicker,
+.section-label,
+.eyebrow,
+.project-number,
+.footer-kicker,
+.hero-meta,
+.image-fallback p,
+.footer-contact,
+.footer-bottom {
+  font-family: "IBM Plex Sans KR", sans-serif;
+  letter-spacing: 0;
+}
+.hero-section h1 {
+  font-weight: 600;
+  letter-spacing: -0.065em;
+  line-height: 1.16;
+}
+.hero-contact {
+  font-family: "IBM Plex Sans KR", sans-serif;
+  letter-spacing: 0;
+  line-height: 1.8;
+}
+.hero-contact strong {
+  font-family: "IBM Plex Sans KR", sans-serif;
+  font-weight: 600;
+}
+.about-body p,
+.project-overview p,
+.project-block li,
+.timeline-item,
+.course-list {
+  letter-spacing: -0.018em;
+}
+.about-body .lead {
+  font-weight: 500;
+}
+.project-intro h3 {
+  font-weight: 600;
+  letter-spacing: -0.07em;
+}
+.project-team,
+.project-topline,
+.project-tabs,
+.project-tab,
+.chip {
+  letter-spacing: -0.02em;
+}
+.chip {
+  font-size: 12px;
+}
+.project-block h4,
+.project-overview h4 {
+  font-weight: 600;
+}
+.footer-top h2 {
+  font-weight: 600;
+  letter-spacing: -0.07em;
 }
